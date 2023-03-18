@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* -------------------------Style for the fetch data button ------------------------------------------------*/
+#fetchDataBtn {
+    margin: 20px;
+    padding: 10px 10px;
+    background-color: #5ce1f3;
+    color: white;
+    font-size: 16px;
+    border: 1px solid #101111;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  /*--------------------------------------- Style for the data table -----------------------------------------------*/
+  #data-table {
+    margin: 20px;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  /* ---------------------------------Style for table header---------------------------------------------------- */
+  #data-table th {
+    background-color: #f19307;
+    color: white;
+    text-align: left;
+    padding: 10px;
+  }
+  
+  /*------------------------------------- Style for table rows-------------------------------------------------- */
+  #data-table td {
+    border: 1px solid #161717;
+    padding: 8px;
+  }
+  
+ 
+ 
+  
+  /* --------------------------------------------Style for loading indicator ---------------------------------------*/
+  .loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  h1{
+    text-align: center;
+    color: #f409b5;
+  }
